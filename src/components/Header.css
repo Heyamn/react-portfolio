@@ -1,0 +1,113 @@
+.box-1 {
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWmPxbCj5RN1gMFqFtPZwKkMaH5SSKLoBXj1KIkeK2QJdN4rKGDttzdFVIhSCUCTvC1Z4&usqp=CAU"); */
+    height: 700px;
+    width: 203.7vh;
+    background-position:center;
+    object-fit: fill;
+    
+}
+.header {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+}
+.logo {
+    text-align: left;
+    padding-left: 50px;
+}
+.nav {
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.nav:hover {
+    background-color: crimson;
+}
+.heading {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 185px;
+}
+.name {
+    color: crimson;
+    font-family: cursive;
+    font-size: 40px;
+}
+.job {
+    color: white;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.container-main {
+  display: flex;
+}
+.icon {
+  margin: auto;
+  padding-left: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.fa {
+  color:#bababa ;
+  font-size: 30px;
+  padding: 10px;
+}
+.fa:hover {
+  color: white;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    margin-left: 0;
+    margin-right: 145px;
+    left: 10%;
+  }
+  .btn {
+    color: white;
+    background-color: rgb(56, 53, 53);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px;
+    text-decoration: none;
+  }
+  .btn:hover {
+    background-color: crimson;
+  }

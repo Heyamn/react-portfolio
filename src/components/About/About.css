@@ -1,0 +1,15 @@
+.box-2 {
+    height: 700px;
+    width: 100%;
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+}
+.edu{
+    color: rgb(24, 23, 23);
+    text-shadow: 1px 1px 2px rgb(95, 92, 92), 0 0 1em rgb(35, 35, 37), 0 0 0.2em rgb(24, 24, 26);
+}
+.edu:hover {
+    color:rgb(95, 92, 92) ;
+}
